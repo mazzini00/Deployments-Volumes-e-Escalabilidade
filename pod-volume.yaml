@@ -17,5 +17,5 @@ spec:
   volumes:
     - name: primeiro-volume
       hostPath:
-        path: /root/Deployments-Volumes-e-Escalabilidade/primeiro-volume
+        path: /home/ec2-user/primeiro-volume
         type: Directory
