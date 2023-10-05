@@ -3,4 +3,11 @@ kind: PersistentVolume
 metadata:
   name: pv-1
 spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriterOnce
+  gcePersistenDisk:
+    pdName: pv-disk
+  storageClassName: standart
   
